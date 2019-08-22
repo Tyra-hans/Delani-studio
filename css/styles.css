@@ -1,26 +1,30 @@
 .container-fluid{
-    margin-left: 0%;
-    margin-right: 0%;
+  margin-left: 0%;
+  margin-right: 0%;
 
- }
+}
 .content-wrapper{
-    width: 100%;
+  width: 100%;
 }
 .content-wrapper img{
-    width:100%;
+  width:100%;
 }
 .text-wrapper{
-    background-image: url(../images/h_img.jpg);
-    background-size: cover;
-    text-align: center;
-    color: white;
-    padding-top: 10%;
-    padding-bottom: 5%;
+  background-image: url(../images/h_img.jpg);
+  background-size: cover;
+  text-align: center;
+  color: white;
+  padding-top: 10%;
+  padding-bottom: 5%;
 }
 #logo {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 #mouse{
-    margin-top: 10%;
-    margin-bottom: 8%;
+  margin-top: 10%;
+  margin-bottom: 8%;
+}
+#aboutus{
+  margin-bottom: 20px;
+  text-align: center;
 }
