@@ -28,3 +28,15 @@
   margin-bottom: 20px;
   text-align: center;
 }
+.service{
+  background-image: url(../images/s_image.jpg);
+  color: white;
+  background-size: cover;
+  text-align: center;
+  position: center;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
