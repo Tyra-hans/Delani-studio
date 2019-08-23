@@ -45,6 +45,9 @@ text-align: center;
 margin-top: 30px;
 margin-bottom: 30px;
 }
+#design-p{
+  display: none;
+}
 #design-icon{
   margin-bottom: 30px;
 }
@@ -52,7 +55,13 @@ margin-bottom: 30px;
   margin-top: 30px;
   margin-bottom: 30px;
 }
+#development-p{
+  display: none;
+}
 .prod-management{
   margin-top: 15px;
   margin-bottom: 30px;
+}
+#prod-p{
+  display: none;
 }
