@@ -49,7 +49,8 @@ margin-bottom: 30px;
   display: none;
 }
 #design-icon{
-  margin-bottom: 30px;
+  margin-bottom: 20px;
+  margin-top: 30px;
 }
 .development{
   margin-top: 30px;
@@ -64,4 +65,10 @@ margin-bottom: 30px;
 }
 #prod-p{
   display: none;
+}
+#portfolio{
+  text-align: center;
+}
+#work1{
+  margin:10px;
 }

@@ -1,15 +1,15 @@
 $(document).ready(function() {
     $("#design-1").click(function() {
-      $("#design-icon").toggle("slow");
-      $("#design-p").toggle("slow");
+      $("#design-icon").toggle(1000);
+      $("#design-p").toggle(1000);
     });
     $("#development").click(function() {
-        $("#development-1").toggle("slow");
-        $("#development-p").toggle("slow");
+        $("#development-1").toggle(1000);
+        $("#development-p").toggle(1000);
     });
     $("#product-management").click(function() {
-      $("#prod-management-1").toggle("slow");
-      $("#prod-p").toggle("slow");
+      $("#prod-management-1").toggle(1000);
+      $("#prod-p").toggle(1000);
     });
 
 });
