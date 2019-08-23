@@ -1,5 +1,5 @@
-$(document).ready(function() {
-    $("#design-1").click(function() {
+$(document).click(function() {
+    $("#design-1").hover(function() {
       $("#design-icon").toggle(1000);
       $("#design-p").toggle(1000);
     });
