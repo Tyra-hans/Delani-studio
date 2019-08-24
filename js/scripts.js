@@ -1,15 +1,15 @@
 $(document).click(function() {
-    $("#design-1").hover(function() {
-      $("#design-icon").toggle(1000);
-      $("#design-p").toggle(1000);
+    $("#design-1").click(function() {
+      $("#design-p").toggle();
+      $("#design-icon").toggle();
     });
     $("#development").click(function() {
-        $("#development-1").toggle(1000);
-        $("#development-p").toggle(1000);
+        $("#development-p").toggle();
+        $("#development-1").toggle();
     });
     $("#product-management").click(function() {
-      $("#prod-management-1").toggle(1000);
-      $("#prod-p").toggle(1000);
+      $("#prod-management-1").toggle();
+      $("#prod-p").toggle();
     });
 
 });

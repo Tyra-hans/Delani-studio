@@ -54,13 +54,11 @@ body {
 #design-p{
   display: none;
 }
-#design-icon{
-  margin-bottom: 20px;
+.des-icon{
   margin-top: 30px;
 }
 .development{
   margin-top: 30px;
-  margin-bottom: 30px;
 }
 .development1{
   font-size: 20px;
@@ -70,7 +68,7 @@ body {
 }
 .prod-management{
   margin-top: 15px;
-  margin-bottom: 30px;
+
 }
 .prod1{
   font-size: 20px;
@@ -97,10 +95,10 @@ body {
   padding-bottom: 20px;
 }
 .text{
-  width:615px;
-  height:409px;
+  width:900px;
+  height:250px;
   background-color: transparent;
-  margin-left: 25%;
+  margin-left: 10%;
 }
 .contact-us{
   color: white;
@@ -109,8 +107,19 @@ body {
 #name{
   background-color: transparent;
   margin-bottom: 20px;
+  color: white;
 }
 #email{
   background-color: transparent;
   margin-bottom: 20px;
+  color: white
+}
+#form1{
+margin-left: 100px;
+  width: 900px;
+  color: white;
+}
+#submit{
+  margin-left:48%;
+  margin-top: 20px;
 }
