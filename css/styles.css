@@ -105,16 +105,17 @@ body {
   color: white;
   text-align: center;
 }
-#name{
+#name , #name::placeholder{
   background-color: transparent;
   margin-bottom: 20px;
   color: white;
 }
-#email{
+#email , #email::placeholder{
   background-color: transparent;
   margin-bottom: 20px;
   color: white
 }
+
 #form1{
 margin-left: 100px;
   width: 800px;

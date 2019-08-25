@@ -38,8 +38,9 @@ $(document).ready(function() {
     $(".work8").toggle(500);
   });
 });
-function form(){
+
   // getting the name from form
+  btn.onclick = function(event) {
   console.log("working")
   var name=document.getElementById("name").value;
   var email=document.getElementById("email").value;
