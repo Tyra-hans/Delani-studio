@@ -123,3 +123,23 @@ margin-left: 100px;
   margin-left:48%;
   margin-top: 20px;
 }
+.socials{
+  align-items: center;
+  margin-left: 30px;
+}
+.col{
+  margin-left: 26%;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.work-4{
+  display: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+.work-3{
+  display:none;
+}
+footer{
+  text-align: center;
+}
