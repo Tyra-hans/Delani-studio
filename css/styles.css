@@ -4,7 +4,6 @@ body {
 .container-fluid{
   margin-left: 0%;
   margin-right: 0%;
-
 }
 .content-wrapper{
   width: 100%;
@@ -28,6 +27,9 @@ body {
   margin-bottom: 8%;
 }
 #aboutus{
+  padding-top: 60px;
+  padding-bottom: 50px;
+  margin-top: 30px;
   margin-bottom: 20px;
   text-align: center;
 }
@@ -42,6 +44,12 @@ body {
   padding-bottom: 20px;
   margin-top: 20px;
   margin-bottom: 20px;
+}
+#service{
+  padding-top: 100px;
+  padding-bottom:100px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 #what-we-do{
   text-align: center;
@@ -68,7 +76,6 @@ body {
 }
 .prod-management{
   margin-top: 15px;
-
 }
 .prod1{
   font-size: 20px;
@@ -82,12 +89,6 @@ body {
 #portfolio-images{
   margin-bottom: 20px;
 }
-#portfolio-images2{
-
-}
-#work1{
-
-}
 .text-wrapper1{
   background-image: url(../assets/backgrounds/c_image.jpg);
   background-size: cover;
@@ -95,7 +96,7 @@ body {
   padding-bottom: 20px;
 }
 .text{
-  width:900px;
+  width:800px;
   height:250px;
   background-color: transparent;
   margin-left: 10%;
@@ -116,7 +117,7 @@ body {
 }
 #form1{
 margin-left: 100px;
-  width: 900px;
+  width: 800px;
 }
 #submit{
   margin-left:48%;
@@ -127,7 +128,7 @@ margin-left: 100px;
 }
 .socials{
   align-items: center;
-  margin-left: 30px;
+  margin-left: 20px;
 }
 .col{
   margin-left: 26%;
@@ -144,37 +145,50 @@ footer{
     display: none;
     background-color: black;
     color: white;
-    opacity: 0.7;
+    opacity: 0.5;
     position: absolute;
     top: 0;
     bottom: 0;
     width: 90%;
   }
-  #portfolios1-4{
-    padding-bottom: 3%;
+  #portfolio1 , #portfolio2{
+    padding: 3%;
 }
-
 /* media queries */
-@media screen and (max width:500px){
+@media screen  and  (max-width:980px)  {
   .container-fluid{
-    width:80%;
+    width:50%;
     margin:30px;
   }
-  .container-fluid1{
-    margin-left:30%;
-    margin-bottom: 50px;
+  .text{
+    width: 90%;
+    margin: 30px;
   }
-  .container-fluid2{
-    margin:50px;
-    margin-left: 30%;
-  }
-  .container{
-    width:80%;
-    margin:30px;
-    margin-left: 30%;
-  }
-  .form-1{
+  #form1{
     width:80%;
     margin: 50px;
   }
+  #portfolio1 , #portfolio2{
+    margin: 20px;
+  }
+#work4,#work3,#work2,#work1,#work5,#work6,#work7,#work8{
+  margin: 20px;
+}
+.text-wrapper{
+  width: 100%;
+  margin-left: 40%;
+}
+#aboutus{
+  width:80%;
+  margin: 20px;
+  margin-left: 100px;
+}
+#service{
+  width:100%;
+  margin:20px;
+}
+.socials{
+  width:100%;
+
+}
 }
