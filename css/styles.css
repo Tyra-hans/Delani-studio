@@ -117,11 +117,13 @@ body {
 #form1{
 margin-left: 100px;
   width: 900px;
-  color: white;
 }
 #submit{
   margin-left:48%;
   margin-top: 20px;
+}
+::placeholder{
+  color: white;
 }
 .socials{
   align-items: center;
@@ -132,14 +134,47 @@ margin-left: 100px;
   margin-top: 30px;
   margin-bottom: 20px;
 }
-.work-4{
+#work4-p p{
   display: none;
-  cursor: pointer;
-  background-color: transparent;
-}
-.work-3{
-  display:none;
 }
 footer{
   text-align: center;
+}
+.work4,.work3,.work2,.work1,.work5,.work6,.work7,.work8{
+    display: none;
+    background-color: black;
+    color: white;
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 90%;
+  }
+  #portfolios1-4{
+    padding-bottom: 3%;
+}
+
+/* media queries */
+@media screen and (max width:500px){
+  .container-fluid{
+    width:80%;
+    margin:30px;
+  }
+  .container-fluid1{
+    margin-left:30%;
+    margin-bottom: 50px;
+  }
+  .container-fluid2{
+    margin:50px;
+    margin-left: 30%;
+  }
+  .container{
+    width:80%;
+    margin:30px;
+    margin-left: 30%;
+  }
+  .form-1{
+    width:80%;
+    margin: 50px;
+  }
 }
