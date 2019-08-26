@@ -200,7 +200,7 @@ footer{
 
   }
   #email ,#name {
-    width:70%;
+    width:50%;
     justify-content: center;
   }
 }
