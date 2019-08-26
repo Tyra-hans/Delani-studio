@@ -117,7 +117,7 @@ body {
 }
 
 #form1{
-margin-left: 100px;
+  margin-left: 100px;
   width: 800px;
 }
 #submit{
@@ -143,17 +143,17 @@ footer{
   text-align: center;
 }
 .work4,.work3,.work2,.work1,.work5,.work6,.work7,.work8{
-    display: none;
-    background-color: black;
-    color: white;
-    opacity: 0.5;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    width: 90%;
-  }
-  #portfolio1 , #portfolio2{
-    padding: 3%;
+  display: none;
+  background-color: black;
+  color: white;
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 90%;
+}
+#portfolio1 , #portfolio2{
+  padding: 3%;
 }
 /* media queries */
 @media screen  and  (max-width:980px)  {
@@ -172,24 +172,24 @@ footer{
   #portfolio1 , #portfolio2{
     margin: 20px;
   }
-#work4,#work3,#work2,#work1,#work5,#work6,#work7,#work8{
-  margin: 20px;
-}
-.text-wrapper{
-  width: 100%;
-  margin-left: 40%;
-}
-#aboutus{
-  width:80%;
-  margin: 20px;
-  margin-left: 100px;
-}
-#service{
-  width:100%;
-  margin:20px;
-}
-.socials{
-  width:100%;
+  #work4,#work3,#work2,#work1,#work5,#work6,#work7,#work8{
+    margin: 20px;
+  }
+  .text-wrapper{
+    width: 100%;
+    margin-left: 40%;
+  }
+  #aboutus{
+    width:80%;
+    margin: 20px;
+    margin-left: 100px;
+  }
+  #service{
+    width:100%;
+    margin:20px;
+  }
+  .socials{
+    width:100%;
 
-}
+  }
 }
