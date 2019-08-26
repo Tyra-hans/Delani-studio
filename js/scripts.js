@@ -60,6 +60,6 @@ $(document).ready(function() {
     }else {
       alert(name + " your message is received. Thank you");
     }
-
+    document.getElementById("form1").reset();
   });
 });

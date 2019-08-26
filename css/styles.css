@@ -115,9 +115,11 @@ body {
 #email , #email::placeholder{
   background-color: transparent;
   margin-bottom: 20px;
-  color: white
+  color: white;
 }
-
+#email , #name{
+  margin-left: 23%;
+}
 #form1{
   margin-left: 100px;
   width: 800px;
@@ -195,6 +197,7 @@ footer{
   }
   .socials{
     width:100%;
+
   }
   #email ,#name {
     width:70%;
