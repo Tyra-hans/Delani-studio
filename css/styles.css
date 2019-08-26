@@ -203,4 +203,7 @@ footer{
     width:50%;
     justify-content: center;
   }
+  #text{
+    width:50%;
+  }
 }
