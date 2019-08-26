@@ -13,7 +13,7 @@ body {
 }
 .text-wrapper{
   background-image: url(../images/h_img.jpg);
-  background-size: cover;
+  background-size: 100%;
   text-align: center;
   color: white;
   padding-top: 10%;
@@ -36,7 +36,7 @@ body {
 .service{
   background-image: url(../images/s_image.jpg);
   color: white;
-  background-size: cover;
+  background-size: 100%;
   text-align: center;
   position: center;
   text-align: center;
@@ -86,12 +86,13 @@ body {
 #portfolio{
   text-align: center;
 }
-#portfolio-images{
+#portfolio2{
   margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 .text-wrapper1{
   background-image: url(../assets/backgrounds/c_image.jpg);
-  background-size: cover;
+  background-size: 100%;
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -104,6 +105,7 @@ body {
 .contact-us{
   color: white;
   text-align: center;
+  margin-top: 20px;
 }
 #name , #name::placeholder{
   background-color: transparent;
@@ -153,43 +155,49 @@ footer{
   width: 90%;
 }
 #portfolio1 , #portfolio2{
-  padding: 3%;
+  padding-top: 3%;
 }
 /* media queries */
 @media screen  and  (max-width:980px)  {
-  .container-fluid{
-    width:50%;
-    margin:30px;
+  .container{
+    width:100%;
+    margin-bottom:10px;
+    background-size: cover;
   }
   .text{
-    width: 90%;
-    margin: 30px;
+    width: 80%;
+    margin-top: 10px;
   }
   #form1{
-    width:80%;
-    margin: 50px;
+    width:100%;
+    margin-top: 10px;
+    background-size: cover;
+
   }
   #portfolio1 , #portfolio2{
-    margin: 20px;
+    margin-bottom: 10px;
   }
   #work4,#work3,#work2,#work1,#work5,#work6,#work7,#work8{
-    margin: 20px;
+    margin-bottom: 10px;
   }
   .text-wrapper{
     width: 100%;
-    margin-left: 40%;
+    background-size: cover;
+    justify-content: center;
   }
   #aboutus{
-    width:80%;
-    margin: 20px;
-    margin-left: 100px;
+    width:100%;
   }
   #service{
     width:100%;
-    margin:20px;
+    background-size: cover;
+    justify-content: center;
   }
   .socials{
     width:100%;
-
+  }
+  #email ,#name {
+    width:70%;
+    justify-content: center;
   }
 }
