@@ -40,17 +40,26 @@ $(document).ready(function() {
 });
 
   // getting the name from form
-  btn.onclick = function(event) {
+  $(document).ready(function() {
+  $("#submit").click (function(event) {
   console.log("working")
+  event.preventDefault();
   var name=document.getElementById("name").value;
   var email=document.getElementById("email").value;
   var text=document.getElementById("text").value;
   // form validation
-  if (name === " "){
+  if (name == ""){
   alert("please enter your name");
-  return false
-}else if(email === " "){
+  return false;
+}else if(email == ""){
   alert("please enter your email")
   return false;
+}else if(text == ""){
+  alert("please tell us something")
+  return false;
+}else {
+  alert(name + " your message is received. Thank you");
 }
-}
+
+});
+});
